@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Helsinki</title>
+        <link rel="stylesheet" type="text/css" href="../estilos.css">
+        <enlace rel="preconectar" href="https://fonts.googleapis.com">
+        <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+        <enlace href="https: //fonts.googleapis.com/css2? family= Bricolage+Grotesque:opsz@10..48 & display=swap" rel="stylesheet">
+    </head>
+<body>
+  <header>
+    <a href="../index.html" class="logo">
+        <img src="../assets/imagens/iconopngblanco.png" alt="Helsinki">
+    </a>
+
+    <nav class="paginas">
+      <a href="1Catalogo.html" rel="noopener noreferrer">Catalogo</a>
+      <a href="2Preguntas.html" rel="noopener noreferrer">Preguntas Frecuentes</a>
+      <a href="3Mayorista.html" rel="noopener noreferrer">Mayorista</a>
+  </nav>
+
+    <a href="#">
+        <img src="../assets/imagens/Carritopngblanco.png" alt="carrito" class="carritopng">
+    </a>
+
+</header>
+
+
+
+    <main>
+      <div class="producto">
+        <div class="detalle">
+            <h2>Fernet</h2>
+            <p>Cantidad: 3</p>
+            <p>Precio unitario: $3000</p>
+            <p>Total: $9000</p>
+        </div>
+    </div>
+    <div class="producto">
+        <div class="detalle">
+            <h2>Smirnoff</h2>
+            <p>Cantidad: 2</p>
+            <p>Precio unitario: $2500</p>
+            <p>Total: $5000</p>
+        </div>
+    </div>
+    <div class="producto">
+        <div class="detalle">
+            <h2>Gancia</h2>
+            <p>Cantidad: 5</p>
+            <p>Precio unitario: $1500</p>
+            <p>Total: $7500</p>
+        </div>
+    </div>
+    <div class="total">
+        <h2>Total a pagar:</h2>
+        <p>$21500</p>
+        <button>Pagar</button>
+    </div>
+  </main>
+
+
+
+
+    <footer>
+        <div class="left">
+          <p>Teléfono: <a href="tel:+3424628539">123456789</a></p>
+          <p>Email: <a href="https://mail.google.com/mail/u/0/#inbox">email@ejemplo.com</a></p>
+        </div>
+        <div class="right">
+          <a href="https://instagram.com/helsinki.delivery?igshid=MzRlODBiNWFlZA==" target="_blank">
+            <img src="../assets/imagens/87390.png" alt="instagram" class="redes">
+          </a>
+          <a href="https://www.facebook.com/helsinkidelivery?mibextid=ZbWKwL" target="_blank">
+            <img src="../assets/imagens/facebook_circle_logo_icon_206764.png" alt="Facebook" class="redes">
+          </a>
+          <a href="https://wa.me/tunumerowhatsapp" target="_blank">
+            <img src="../assets/imagens/whatsapp-logo-112413FAA7-seeklogo.com.png" alt="Whatsapp" class="redes">
+          </a>
+        </div>
+      </footer>
+
+
+      <script>
+        const pagarButton = document.querySelector('.total button');
+      
+        pagarButton.addEventListener('click', () => {
+          alert('¡Gracias por tu compra!');
+          carrito.length = 0; // Vaciar el carrito después de pagar
+          actualizarCarrito();
+        });
+      </script>
+
+</body>
+</html>
