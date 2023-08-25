@@ -1,0 +1,42 @@
+@media (max-width: 480px) {
+    header {
+      flex-direction: column;
+      padding: 10px; /* Ajusta el espacio entre elementos */
+    }
+  
+    .logo {
+      order: 1;
+      margin-bottom: 10px;
+    }
+  
+    nav {
+      order: 3; 
+      margin-top: 0;
+      text-align: center;
+    }
+  
+    .carritopng {
+      order: 2; 
+      width: 50px; 
+      margin-top: 10px;
+    }
+  
+    .paginas {
+      margin: 0; 
+    }
+  
+    nav a {
+      display: block; 
+      margin: 10px 0; 
+    }
+    main{
+        width: 80%;
+        padding: 5px;
+    }
+    .Catalogo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 100%;
+    }
+  }
