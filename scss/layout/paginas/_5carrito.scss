@@ -1,0 +1,22 @@
+.producto {
+    display: flex;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  
+    .detalle {
+      flex: 1;
+      padding: 10px;
+    }
+  
+    .total {
+      text-align: right;
+    }
+  
+    button {
+      @extend .input[type="submit"];
+  
+      &:focus {
+        outline: none;
+      }
+    }
+}

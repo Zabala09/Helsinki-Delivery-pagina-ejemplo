@@ -1,0 +1,30 @@
+footer {
+    background: linear-gradient(to bottom, #100f0f, #000000);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    @include flex(none,space-between,center,none);
+    bottom: 0;
+    font-family: $font1;
+    color: white;
+  
+    a {
+      text-decoration: none;
+      color: white;
+      transition: color 0.3s ease;
+  
+      &:hover {
+        color: $blanco;
+      }
+    }
+  
+    .redes {
+      width: 25px;
+      margin: 0 10px;
+      transition: transform 0.3s ease;
+      filter: invert(1);
+  
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+}

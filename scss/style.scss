@@ -1,0 +1,20 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+
+/*generales*/
+@import "./base/generales";
+@import "./base/reset";
+
+/*Header*/
+@import "./layout/header";
+/*Footere*/
+@import "./layout/footer";
+
+/*Paginas*/
+@import "./layout/paginas/1index";
+@import "./layout/paginas/2catalogo";
+@import "./layout/paginas/3preguntas";
+@import "./layout/paginas/4mayorista";
+@import "./layout/paginas/5carrito";
+  

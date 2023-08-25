@@ -1,0 +1,26 @@
+.quienes-somos {
+    justify-items: normal;
+    text-align: center;
+    padding: 60px 0;
+  
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #333;
+    }
+  
+    .textoindex {
+      font-size: 20px;
+      font-family: $font2;
+    }
+}
+  
+.carousel-control-prev,
+.carousel-control-next {
+    filter: none;
+}
+  
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+}

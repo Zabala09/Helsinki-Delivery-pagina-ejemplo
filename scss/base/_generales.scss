@@ -1,0 +1,13 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: $font1;
+    background: radial-gradient(ellipse at center, #ffffff, #c0c0c0);
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+main {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+}
