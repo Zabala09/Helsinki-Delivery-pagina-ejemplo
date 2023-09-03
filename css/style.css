@@ -83,14 +83,20 @@ footer {
 .quienes-somos {
   justify-items: normal;
   text-align: center;
-  padding: 60px 0; }
-  .quienes-somos h1 {
+  padding: 60px 0;
+  border: 1px solid black;
+  border-radius: 10px; }
+  .quienes-somos h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #333; }
   .quienes-somos .textoindex {
     font-size: 20px;
     font-family: "sans-serif"; }
+
+.carousel {
+  width: 80%;
+  margin: auto; }
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -225,9 +231,14 @@ h1 {
     margin: 10px 0; }
   main {
     width: 80%;
-    padding: 5px; }
+    padding: 5px;
+    font-size: 10px; }
   .Catalogo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    width: 100%; } }
+    width: 100%; }
+  /*Index*/
+  .quienes-somos .textoindex {
+    font-size: 15px;
+    font-family: "sans-serif"; } }

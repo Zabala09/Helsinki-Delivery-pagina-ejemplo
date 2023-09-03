@@ -2,8 +2,10 @@
     justify-items: normal;
     text-align: center;
     padding: 60px 0;
-  
-    h1 {
+    border: 1px solid black;
+    border-radius: 10px;
+
+    h2 {
       font-size: 2.5rem;
       margin-bottom: 20px;
       color: #333;
@@ -14,7 +16,12 @@
       font-family: $font2;
     }
 }
-  
+
+
+.carousel{
+  width: 80%;
+  margin: auto;
+}
 .carousel-control-prev,
 .carousel-control-next {
     filter: none;
@@ -24,3 +31,4 @@
 .carousel-control-next-icon {
     background-image: none;
 }
+
